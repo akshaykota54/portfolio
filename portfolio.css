@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+body{
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#navbar{
+    margin:0px;
+    background: #0d6efd;
+    height:70px;
+    overflow: hidden;;
+}
+.nav_button{
+    text-decoration:solid black;
+    border-radius: 15px;
+    margin:10px 10px 10px 10px;
+    padding:10px;
+    height:40px;
+    cursor:pointer;
+    background:black;
+    color:white;
+    border-width: 0px;
+    
+}
+.nav_button:hover{
+    background: rgb(63,127,251);
+    background: linear-gradient(90deg, rgba(63,127,251,1) 0%, rgba(6,245,190,1) 100%);
+    text-decoration:none;
+}
+#home{
+    padding:3rem;
+    background: rgb(63,127,251);
+    background: linear-gradient(90deg, rgba(63,127,251,1) 0%, rgba(91,255,237,1) 100%);
+    color:black;
+    display:flex;
+    justify-content:space-evenly;
+    height:400px;
+}
+.info{
+    padding:40px;
+}
+.image{
+    height:300px;
+    width:300px;
+    justify-content:right;
+    border-radius: 50%;
+}
+#skills{
+    display:block;
+    text-align:center;
+    justify-content:space-evenly;
+    color:#e939aa;
+    padding:2rem;
+    height:400px;
+    overflow: hidden;
+    background: rgb(255,228,103);
+    background: linear-gradient(90deg, rgba(255,228,103,1) 0%, rgba(252,166,245,1) 100%);   
+}
+.lang{
+    border-radius:20px;
+    background: blue;
+    padding:2rem;
+    margin:10px;
+    display:inline-block;
+    color:black;
+}
+.web{
+    margin:10px;
+    border-radius:20px;
+    background: yellow;
+    padding:2rem;
+    display:inline-block;
+    color:black;
+}
+#contact{
+    background: black;
+    color:#a8fc46;
+    padding:10px;   
+    height:350px; 
+}
+.contact_head{
+    color:#08f4f1;
+    text-align: center;
+}
+.mail{
+    margin:10px;
+    font-size: 15px;
+    text-align: left;
+    display:block;
+}
+.message{
+    margin:10px;
+    justify-content: flex-end;
+    display:block;
+    text-align: left;
+    height:40px;
+    width:300px;
+}
+.button{
+    margin:10px;
+    background: #0d6efd;
+    border-radius:7px;
+}
+.contact_2{
+  text-align: center;
+  font-size: 30px;
+  margin:10px 50px;
+}
+.phn{
+    text-align:center;
+}
+@media (max-width:640px)
+{
+    .nav_button{
+        height:30px;
+        margin:5px;
+        padding:5px;
+    }
+    .image{
+    height:200px;
+    width:200px;
+    justify-content:right;
+    border-radius: 50%;
+}
+#home{
+    margin-top: 0px;
+    padding:0px;
+    font-size: 7px;
+    height:250px;
+}
+.info{
+    padding-left:10px;
+    padding-right:5px;
+}
+.banner{
+    width:200px;
+}
+   .contact_2{
+       font-size:20px;
+   }
+}
